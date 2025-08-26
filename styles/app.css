@@ -84,8 +84,13 @@ main{
     color: white;
 }
 .main-div1-div{
-    background-color: white;
+ 
     height: 300px;
     width: 300px;
+    margin-top: 10px;
+}
+#main-div1-div>img {
+    border: 2px solid #000;
+    border-radius: 5px;
     margin-top: 10px;
 }
