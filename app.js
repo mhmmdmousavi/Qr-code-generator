@@ -19,7 +19,7 @@ function create_QR(input_value) {
     console.log(img);
     
     console.log(qrcode_src)
-    const container = document.getElementById('main-div1-div')
+    const container = document.getElementById('main-div1-div2')
     container.innerHTML ='';
     container.appendChild(img)
 }

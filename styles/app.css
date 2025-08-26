@@ -50,30 +50,30 @@ main{
     font-weight: 400;
     color: white;
 }
-.main-div1>form{
+.main-div1-div1{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 45%;
     gap: 5px;
 }
-.main-div1>form>label{
+.main-div1-div1>label{
     color: white;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
 }
-.main-div1>form>input{
+.main-div1-div1>input{
     padding-inline-start: 5px 10px;
     border: none;
     border-radius: 10px;
     text-align: center;
     height: 20px;
     width: 190px;;
-    color: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.723);
     background-color: rgba(50, 27, 67, 1);
 }
-.main-div1>form>button{
+.main-div1-div1>button{
     padding-inline-start: 5px 10px;
     border: none;
     border-radius: 30px;
@@ -83,13 +83,14 @@ main{
     background-color: rgba(119, 61, 166, 1);
     color: white;
 }
-.main-div1-div{
- 
+.main-div1-div2{
+    display: flex;
+    justify-content: center;
     height: 300px;
     width: 300px;
     margin-top: 10px;
 }
-#main-div1-div>img {
+#main-div1-div2>img {
     border: 2px solid #000;
     border-radius: 5px;
     margin-top: 10px;
