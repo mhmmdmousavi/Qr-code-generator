@@ -1,0 +1,91 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: "Monda", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: "normal";
+}
+
+main{
+    background-image: url("../images/bg-purple.png");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-div1{
+    width: 70%;
+    height: 70%;
+    background-color: rgba(178, 33, 246, 0.09);
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    position: relative;
+    /* padding-bottom: 30px; */
+}
+.main-div1>h2{
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.main-div1>span{
+    position: absolute;
+    top: 54px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.main-div1>form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    gap: 5px;
+}
+.main-div1>form>label{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.main-div1>form>input{
+    padding-inline-start: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    height: 20px;
+    width: 190px;;
+    color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(50, 27, 67, 1);
+}
+.main-div1>form>button{
+    padding-inline-start: 5px 10px;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    height: 30px;
+    width: 140px;
+    background-color: rgba(119, 61, 166, 1);
+    color: white;
+}
+.main-div1-div{
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+}
